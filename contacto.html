@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto|Ed-car</title>
+	<link href='static/Practica_sitoweb/css/gestion-contactos.css' rel='StyleSheet' type='text/css'/>
+</head>
+<body>
+	<header>
+		<img src="static/Practica_sitoweb/img/logo.jpeg" alt='Logo de la empresa' id='img_Logo1'>
+		<p id='name_hader'>ferreteria Ed-car</p>
+	</header>
+		<nav>
+		 <ul id='list_nav'>
+			<li class="nav-item">
+				<a class="nav-link " href="index.html">Inicio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="nosotros.html">Nosotros</a>
+			</li>
+			<li class="nav-item ">
+				<a class="nav-link" href="#">Contacto</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="producto.html">Producto</a>
+			</li>
+		   </ul>
+		</nav>
+	<main>
+		<figure class="p_figure">
+			<img src="static/Practica_sitoweb/img/pintura.jpg" alt='imagen ex'>
+		</figure>
+		<section id ="enviohttp">
+		<div id="ifno">
+			<h4>Info@ferreteriaEdcar.com</h4>
+			<h4>(+507)56544910</h4>
+		</div>
+		<form action= "/contacto/" method="POST">
+			<p>Asunto:  <input type="text" name = "Asunto"> </p>
+			<p>EMail:  <input type="text" name = "email"> </p>
+			<p>Mensaje:  <textarea name = "Mensaje" rows="15" cols="45"></textarea> </p>
+			<input type="submit" value ="Enviar">
+		</form>
+		</section>
+	</main>
+	<footer>
+		<div id="contacto">
+			<p>Todos los derechos reservados</p>
+			<p class='p_namefooter'>Ferreteria Ed-car</p>
+			<p>Email: 
+				<a id='tribute-link' href='#' target='_blank'>edgdr@ferreteria.com</a>
+			</p>
+			<p class='p_namefooter'>Tel:<strong>5654410</strong></P>
+		</div>	
+		<figure id= 'img-div'>
+			<img src="static/Practica_sitoweb/img/logo.jpeg" alt='Logo del colegio' id='img_Logo2'>
+		</figure>
+	</footer>	
+</body>
+</html>
